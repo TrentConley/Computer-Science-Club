@@ -19,3 +19,6 @@ string = raw_input('Enter your favorite word: ')
 # Once you are done with that, create a brief program below that asks for the user's
 # name and birthday and then prints their name and birthday. Run it. Hint: you only 
 # need to use raw_input. 
+# Enter code below:
+
+
