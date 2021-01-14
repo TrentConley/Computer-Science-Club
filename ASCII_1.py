@@ -9,8 +9,10 @@ my_string =
 
 first_character = 
 
-print (first_character + 1)
+first_character_plus_one = first_character + 1
+
+print (first_character_plus_one)
 # the line above will shift the letter over 1. 
 # For example, an 'a' will turn into a 'b'. 
 
-# However, if you use a 
+# using what you know from echo_2 and above, g
