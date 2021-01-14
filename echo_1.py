@@ -15,4 +15,10 @@ string = input('Enter your favorite word: ')
 # name and birthday and then prints their name and birthday. 
 # Enter code below:
 
+# make sure you use a different variable name
+string2 = 
 
+
+
+# if you have any trouble with these steps, let be kow because they will be very important 
+# for the next programs. 
