@@ -1,5 +1,5 @@
 # Using what you learned from echo_1, get a user input for 
-# a long sentence. 
+# a long sentence prompting them accordingly. 
 # Enter code below: 
 my_string = 
 
@@ -53,6 +53,7 @@ print (num2)
 
 # Using what you know about math and for loops, try to make a for loop that will print
 # half of the characters in a string below.  
+
 
 
 
