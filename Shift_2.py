@@ -5,3 +5,6 @@
 
 my_string = 
 
+for i in range (0, len(my_string)):
+	if (i > )
+	print 

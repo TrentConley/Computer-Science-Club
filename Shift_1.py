@@ -10,9 +10,16 @@ my_string =
 
 first_character = 
 
-first_character_plus_one = first_character + 1
+first_character_number_plus_one = ord(first_character) + 1
+# the ord function will turn the character into a number, using an ASCII table. 
+# You don't need an ASCII table, however to do useful things. 
+# I also added one to the value, which will shift the letter over one.
+# For example, an 'b' will turn into a 'b' and 'm' to 'n' 
 
-print (first_character_plus_one)
+first_character_shift_one = chr(first_character_number_plus_one)
+# The chr function does the opposite of the ord function, numbers turn into characters. 
+
+print (first_character_shift_one)
 # the line above will shift the letter over 1. 
 # For example, an 'a' will turn into a 'b'. 
 
