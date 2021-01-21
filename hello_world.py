@@ -11,7 +11,7 @@ print "Hello, World!"
 
 print ("Hello, World!")
 
-# Notice how you will get an error on line 9, that is because all functions need a parenthesis 
+# Notice how you will get an error on line 10, that is because all functions need a parenthesis 
 # to operate properly. Using this knowledge, put a hashtag # in the begninning of the line that 
 # you think that is wrong so that the computer will ignore it. 
 
