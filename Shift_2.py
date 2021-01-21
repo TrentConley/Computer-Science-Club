@@ -6,9 +6,27 @@
 
 my_string = 
 
-# the following lines will declare
+
+# Get user desired shift:
+# hint: you will need to use the int function
+my_shift = 
+
+
 
 for i in range (0, len(my_string)):
-	if (i >= ord('a') and i <= 'z'):
+	ascii_a = ord('a')
+	ascii_z = ord('z')
+	# the following lines will declare some booleans
+	# booleans are true or false statements, 
+	# and you can declare them the same way you do with variables
+	greater_than_a = i >= ascii_a
+	less_than_z = i <= ascii_z
+	# now we have two booleans that hold true or false
+	# we can combine these two boolean like in the line below
+	between_a_and_z = greater_than_a and less_than_z
+	# the line above will return true only if both boolean hold true
+	# and false otherwise.  
 
-	print 
+	if (between_a_and_z):
+
+		print 
