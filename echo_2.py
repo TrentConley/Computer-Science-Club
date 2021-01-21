@@ -35,6 +35,7 @@ for i in range (0,length):
 # You usually want to start off with for i in range (0, num):
 # num1 stands for the amount of iterations that will take place (because num - 0 = num)
 # if you said range (1, num), then there would be num - 1 iterations that take palce
+# Also make sure to indent everything inside of the for loop by pressing tab. 
 
 
 num1 = (8/2) - (3*3)
