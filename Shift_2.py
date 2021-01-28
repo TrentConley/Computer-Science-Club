@@ -26,8 +26,8 @@ for i in range (0, len(my_string)):
 	# the following lines will declare some booleans
 	# booleans are true or false statements, 
 	# and you can declare them the same way you do with variables
-	greater_than_a = ord(my_sting[i]) >= ascii_a
-	less_than_z = ord(my_sting[i]) <= ascii_z
+	greater_than_a = ord(my_string[i]) >= ascii_a
+	less_than_z = ord(my_string[i]) <= ascii_z
 	# now we have two booleans that hold true or false
 	# we can combine these two boolean like in the line below
 	between_a_and_z = greater_than_a and less_than_z
