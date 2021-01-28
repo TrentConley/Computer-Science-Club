@@ -26,8 +26,8 @@ for i in range (0, len(my_string)):
 	# the following lines will declare some booleans
 	# booleans are true or false statements, 
 	# and you can declare them the same way you do with variables
-	greater_than_a = i >= ascii_a
-	less_than_z = i <= ascii_z
+	greater_than_a = my_sting[i] >= ascii_a
+	less_than_z = my_sting[i] <= ascii_z
 	# now we have two booleans that hold true or false
 	# we can combine these two boolean like in the line below
 	between_a_and_z = greater_than_a and less_than_z
@@ -35,5 +35,7 @@ for i in range (0, len(my_string)):
 	# and false otherwise.  
 
 	if (between_a_and_z):
+		# now we know that all of the letters are inbetween a and z.
+		# so that we are only shifting the letters.
 		# using what you know from shift_1, print each character
 		# shifted over the amount stored in my_shift.
