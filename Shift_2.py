@@ -35,7 +35,5 @@ for i in range (0, len(my_string)):
 	# and false otherwise.  
 
 	if (between_a_and_z):
-		# now we know that all of the letters are inbetween a and z.
-		# so that we are only shifting the letters.
-		# using what you know from shift_1, print each character
-		# shifted over the amount stored in my_shift.
+		# now we know that all of the letters that we will apply the shift to
+		# are inbetween a and z.
