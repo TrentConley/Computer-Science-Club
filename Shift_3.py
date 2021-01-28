@@ -18,10 +18,18 @@ if (my_shift >= 26):
 
 
 # there is a lot of carryover from Shift_2, but it is more compact. 
+new_sentence = ''
+# instead of printing while going, I am adding creating a new sentence as I go
 for i in range (0, len(my_string)):
 	if (ord(my_sentence[i]) >= ord('a') and ord(my_sentence[i]) <= ord('z')):
 		# now we know that all of the letters that we will apply the shift to
 		# are inbetween a and z.
 		# the next if statement will allow for 
-		if (ord(my_stentence))
+		if (ord(my_stentence[i]) + my_shift > ord('z')):
+			new_shift = 
+
+# Now, try and do the same thing but with uppercase letters. 
+# Enter code below:
+# Note: it should look very similar to the loop above. 
+
 		
